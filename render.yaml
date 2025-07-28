@@ -1,11 +1,12 @@
+# render.yaml
 services:
   - type: web
     name: tm-sponsorship
     runtime: node
-    buildCommand: npm install pnpm -g && pnpm install && pnpm run build
-    startCommand: pnpm run start
+    buildCommand: npm install -g pnpm && pnpm install && pnpm build
+    startCommand: pnpm start
     envVars:
       - key: NODE_VERSION
-        value: 18.17.0
+        value: "18.17.0"
       - key: NODE_ENV
         value: production
