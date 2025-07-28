@@ -24,14 +24,6 @@ export default function WhatMakesTMSpecial() {
 
   return (
     <section className="py-24 sm:py-32 bg-black/50 relative">
-      <div className="absolute -left-10 top-1/2 -translate-y-1/2 w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] z-0">
-        <Image
-          src="/tmai-wears-hat.png"
-          alt="TMAI with hat"
-          fill
-          className="object-contain drop-shadow-2xl"
-        />
-      </div>
       <div className="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">

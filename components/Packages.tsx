@@ -33,7 +33,7 @@ export default function Packages() {
     <section id="packages" className="py-24 sm:py-32 bg-black/50 relative overflow-hidden">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16 relative">
-          <div className="absolute -left-80 -top-10 w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] z-0">
+          <div className="absolute -left-20 md:-left-32 -top-28 md:-top-33 w-[150px] h-[150px] md:w-[180px] md:h-[180px] lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px] z-0">
             <Image
               src="/tmai-rocket.png"
               alt="TMAI Rocket"

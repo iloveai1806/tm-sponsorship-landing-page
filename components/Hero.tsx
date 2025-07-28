@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden px-6 lg:px-8 py-24 sm:py-32">
       <div className="absolute inset-0 bg-gradient-to-r from-tm-yellow/20 to-transparent blur-3xl" />
-      <div className="absolute -right-20 bottom-0 w-[400px] h-[400px] lg:w-[500px] lg:h-[500px] z-0">
+      <div className="absolute -right-5 bottom-0 w-[220px] h-[220px] md:w-[250px] md:h-[250px] lg:w-[280px] lg:h-[280px] xl:w-[330px] xl:h-[330px] 2xl:-right-10 z-0">
         <Image
           src="/tmai-confident.png"
           alt="TMAI Mascot"
