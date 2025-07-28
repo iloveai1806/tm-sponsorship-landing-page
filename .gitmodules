@@ -1,0 +1,3 @@
+[submodule "lib/coinbase-agentkit"]
+	path = lib/coinbase-agentkit
+	url = git@github-tokenmetrics:token-metrics/coinbase-agentkit.git
