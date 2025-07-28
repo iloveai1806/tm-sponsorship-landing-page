@@ -16,14 +16,11 @@ export default function Hero() {
       <div className="mx-auto max-w-7xl relative z-10">
         <div className="text-center">
           <div className="flex justify-center mb-8">
-            <div className="relative h-20 w-64">
-              <Image
-                src="/logos/tm-logo.svg"
-                alt="Token Metrics"
-                fill
-                className="object-contain"
-              />
-            </div>
+            <img
+              src="/logos/tm-logo.svg"
+              alt="Token Metrics"
+              className="h-20 w-auto"
+            />
           </div>
           <h1 className="text-5xl font-bold tracking-tight text-white sm:text-7xl">
             Partner with <span className="text-tm-yellow">Token Metrics</span>
